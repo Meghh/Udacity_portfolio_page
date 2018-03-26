@@ -139,7 +139,7 @@
 
      }
      .footer_link {
-       justify-content: space-between;
+       justify-content: space-around;
        display: flex;
        flex-direction: row;
        align-items: center;
@@ -150,8 +150,8 @@
      }
      .footer_link > p {
        margin-left: auto;
+       font-size: 1.3em;
      }
-
      .social {
        width: 60%;
      }

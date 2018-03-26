@@ -1,0 +1,174 @@
+/*
+ *
+ * Media Queries
+ *
+ */
+@media screen and (min-width:450px) {
+ /*
+  *
+  * Portfolio header
+  *
+  */
+  .header {
+    display: inline-flex;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 0.5em;
+  }
+  .logo {
+    width: 40%;
+  }
+  .portfolio_logo {
+    max-width: 60%;
+    padding: 1.2em;
+    margin: auto;
+    height: auto;
+  }
+  .header_title {
+    width: 50%;
+  }
+  .job_title {
+    width: 100%;
+  }
+
+
+  /*
+   *
+   * Portfolio sections
+   *
+   */
+   .about {
+     margin-bottom: 0.5em;
+   }
+
+   .container {
+       flex-direction: row;
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+   }
+   .container > .item {
+     flex: 0 50%;
+     margin: 0;
+     padding: 0;
+   }
+   .item {
+      width: 100%;
+   }
+   .portfolio_image {
+     width: 90%;
+     margin: 0.5em auto 0.8em auto;
+   }
+   .item > p {
+     margin: 0 auto 0 auto;
+     padding: 3px;
+   }
+
+   /*
+    *
+    * Portfolio footer
+    *
+    */
+    .footer_link > p,
+    .link > a {
+      font-size: 16px;
+    }
+
+    .link {
+      margin: 0 3px 0 3px;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+  /*
+   *
+   * Portfolio header
+   *
+   */
+   .header {
+     height: 6em;
+   }
+   .logo {
+     height: auto;
+   }
+   .portfolio_logo {
+     max-width: 80%;
+     max-height: 80%;
+     margin: 0.5em 1em 0.5em 1em;
+     padding: 0;
+   }
+   .header_title {
+     text-align: right;
+     position: relative;
+     margin-right: 2%;
+     padding: 0;
+   }
+   .job_title {
+     padding: 5px;
+   }
+
+   /*
+    *
+    * Portfolio sections
+    *
+    */
+    .about_picture {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .container {
+      padding: 1em;
+    }
+    .item {
+      max-width: 33%;
+    }
+    .item > p {
+      max-width: 60%;
+    }
+
+    /*
+     *
+     * Portfolio footer
+     *
+     */
+     .footer {
+       padding: 0.5em 0 0.5em 0;
+
+     }
+     .footer_link {
+       justify-content: space-between;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       padding: 0;
+     }
+     .footer_link > p {
+       margin-left: auto;
+     }
+
+     .social {
+       width: 60%;
+     }
+
+
+
+  /*
+   *
+   * Transition animation
+   *
+   */
+   .portfolio_image {
+     transform: scale(0.9);
+     transition: transform 0.3s ease;
+   }
+   .portfolio_image:hover {
+     transform: scale(1);
+   }
+
+}

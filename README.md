@@ -1,4 +1,4 @@
-# Link: [Udacity Front End Portfolio Page](Meghh.github.io/Udacity_portfolio_page)
+# Link: [Udacity Front End Portfolio Page](https://meghh.github.io/Udacity_portfolio_page)
 
 ### Header 
 The header contains custom logo, name, and title

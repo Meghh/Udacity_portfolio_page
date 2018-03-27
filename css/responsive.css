@@ -3,6 +3,11 @@
  * Media Queries
  *
  */
+ @media screen ans (max-width:449px) {
+   .social {
+     text-align: center;
+   }
+ }
 @media screen and (min-width:450px) {
  /*
   *
@@ -73,7 +78,9 @@
     .link > a {
       font-size: 16px;
     }
-
+    .social {
+      text-align: center;
+    }
     .link {
       margin: 0 3px 0 3px;
     }
@@ -114,10 +121,11 @@
     *
     */
     .about_picture {
-      width: 70%;
+      width: 50%;
       margin-left: auto;
       margin-right: auto;
       display: block;
+      max-height: 400px;
     }
     .container {
       padding: 1em;
@@ -128,6 +136,12 @@
     .item > p {
       max-width: 60%;
     }
+    .portfolio_link > img  {
+      max-height: 10%;
+      max-width: 80%;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
 
     /*
      *
@@ -136,25 +150,26 @@
      */
      .footer {
        padding: 0.5em 0 0.5em 0;
-
      }
      .footer_link {
        justify-content: space-around;
        display: flex;
        flex-direction: row;
        align-items: center;
-       width: 100%;
-       margin-left: auto;
-       margin-right: auto;
-       padding: 0;
+       margin-left: 20%;
      }
      .footer_link > p {
-       margin-left: auto;
+       margin-right: 0;
        font-size: 1.3em;
+       text-align: right;
+       width: 30%;
      }
-     .social {
-       width: 60%;
+     .footer_link > .social {
+       text-align: left;
+       width: 70%;
+       margin-left: 1em;
      }
+
 
 
 

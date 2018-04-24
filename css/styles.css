@@ -1,4 +1,5 @@
   body {
+    background-image: url("../images/cream_pixels.png");
     justify-content: center;
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,28 @@
+{
+  "name": "udacity_portfolio_page",
+  "version": "1.0.0",
+  "description": "Portfolio page for Udacity frontend nanodegree",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meghh/Udacity_portfolio_page.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Brototi Biswas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meghh/Udacity_portfolio_page/issues"
+  },
+  "homepage": "https://github.com/Meghh/Udacity_portfolio_page#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.1"
+  }
+}

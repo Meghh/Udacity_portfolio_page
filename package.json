@@ -20,9 +20,13 @@
   },
   "homepage": "https://github.com/Meghh/Udacity_portfolio_page#readme",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-retinize": "^0.1.0"
   },
   "dependencies": {
+    "gm": "^1.23.1",
     "gulp-sass": "^4.0.1"
   }
 }
